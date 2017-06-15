@@ -16,8 +16,8 @@ import io.reactivex.annotations.NonNull;
 import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
 
-public class SecondActivity extends AppCompatActivity {
-    private static final String TAG = "SecondActivity";
+public class MapFlatMapActivity extends AppCompatActivity {
+    private static final String TAG = "MapFlatMapActivity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

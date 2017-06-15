@@ -16,8 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".ZipActivity"></activity>
+        <activity android:name=".MapFlatMapActivity" />
+        <activity android:name=".ZipActivity" />
+        <activity android:name=".BackPressureBeforeActivity" />
+        <activity android:name=".BackPressureActivity"></activity>
     </application>
 
 </manifest>

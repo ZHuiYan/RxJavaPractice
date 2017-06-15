@@ -18,7 +18,7 @@ public class BackPressureBeforeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_backpressure);
+        setContentView(R.layout.activity_back_pressure_before);
         Observable<Integer> observable1 = Observable.create(new ObservableOnSubscribe<Integer>() {
             @Override
             public void subscribe(@NonNull ObservableEmitter<Integer> e) throws Exception {

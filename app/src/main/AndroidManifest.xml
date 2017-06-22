@@ -19,7 +19,8 @@
         <activity android:name=".MapFlatMapActivity" />
         <activity android:name=".ZipActivity" />
         <activity android:name=".BackPressureBeforeActivity" />
-        <activity android:name=".BackPressureActivity"></activity>
+        <activity android:name=".BackPressureActivity" />
+        <activity android:name=".FlowableActivity1"></activity>
     </application>
 
 </manifest>

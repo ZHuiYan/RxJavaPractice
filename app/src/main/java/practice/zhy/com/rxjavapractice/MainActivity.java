@@ -62,6 +62,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.tvFlowable).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,FlowableActivity1.class);
+                startActivity(intent);
+            }
+        });
         compositeDisposable = new CompositeDisposable();
         Observable<String> observable = Observable.create(
                 new ObservableOnSubscribe<String>() {

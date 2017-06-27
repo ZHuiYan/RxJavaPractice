@@ -20,7 +20,8 @@
         <activity android:name=".ZipActivity" />
         <activity android:name=".BackPressureBeforeActivity" />
         <activity android:name=".BackPressureActivity" />
-        <activity android:name=".FlowableActivity1"></activity>
+        <activity android:name=".FlowableActivity1" />
+        <activity android:name=".FlowableActivity2"></activity>
     </application>
 
 </manifest>

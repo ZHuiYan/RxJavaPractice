@@ -16,7 +16,9 @@ import io.reactivex.functions.BiFunction;
 import io.reactivex.functions.Consumer;
 import io.reactivex.plugins.RxJavaPlugins;
 import io.reactivex.schedulers.Schedulers;
-
+/**
+ * 需要两个异步方法完成之后组合获得最终的值
+ */
 public class ZipActivity extends AppCompatActivity {
 
     @Override

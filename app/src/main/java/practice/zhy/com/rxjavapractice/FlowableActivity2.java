@@ -127,7 +127,7 @@ public class FlowableActivity2 extends AppCompatActivity {
         Flowable.create(new FlowableOnSubscribe<Integer>() {
             @Override
             public void subscribe(@NonNull FlowableEmitter<Integer> e) throws Exception {
-                for (int i = 0;i<1000000; i++) {
+                for (int i = 0;; i++) {
 //                    Log.e("flowable", "emit:" + i);
                     e.onNext(i);
                 }
